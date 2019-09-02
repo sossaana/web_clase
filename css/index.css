@@ -1,0 +1,7 @@
+/*SELECTORES CSS */
+/*Selector de etiqueta (directament amb
+el nom de l'etiqueta del HTML)*/
+header{ /*selector css*/
+  height: 150px; /*Nom de la propietat : valor propietat*/
+  background-color: red;
+}
