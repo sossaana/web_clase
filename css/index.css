@@ -1,11 +1,49 @@
-/*SELECTORES CSS */
-/*Selector de etiqueta (directament amb
-el nom de l'etiqueta del HTML)*/
+
+/*Selector de etiqueta (directament amb el nom de l'etiqueta del HTML)*/
+/*inicio cabecera--------------------------------------*/
 header{ /*selector css*/
-  height: 170px; /*Nom de la propietat : valor propietat*/
-  background-color: red;
+  height: 200px; /*Nom de la propietat : valor propietat*/
+  background-color: rgb(61, 61, 92);
+  /*posicionamiento elementos del heades*/
+  /*display flex*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*aplicamos padding (espacio dentro del contenedor)*/
+  padding: 30px;
 }
-h1{
-  color: blue;
-  font-size: 30px;
+/*selector por ID*/
+/*faig referencia a l'element amb id="logo" amb el simbol #*/
+#logo1{
+  height: 100px;
+  weight: 100px;
 }
+/*fin cabecera----------*/
+/*inicio contenido principal */
+main{
+  text-align: center;
+}
+/*todo el main con el texto centrado
+/*estilos del formulario (pq solo tengo un formulario)*/
+form{
+  /* border grueso tipo de linea color*/
+  border: 1px solid black;
+  width: 30%;
+  /*2 valores: 1(arriba-abajo,derecha-izquierda)*/
+  /*aplicamos "margin" para centrar el formulario (espacio por fuera del contenedor)*/
+  margin: 50px auto;
+  /*padding*/
+  padding: 20px;
+
+}
+/*tamaño de los elementos del formulario*/
+input,textarea,button{
+  width: 100%;
+  /*espacio entre ellos*/
+  margin: 10px;
+}
+/*elimina la opción de redimensionar el area de texto*/
+textarea{
+  resize: none;
+}
+/*fin contenido principal */
